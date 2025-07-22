@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Inter", sans-serif;
+  background: #000000;
+}
+
+/* src/index.css atau lokasi file CSS utama Anda */
+
+/* Custom styles for Swiper navigation arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: black !important; /* Mengatur warna panah menjadi putih */
+  --swiper-navigation-size: 20px; /* Mengatur ukuran panah (default biasanya 44px) */
+  /* Anda bisa menyesuaikan angka 20px ini */
+}
+
+/* Optional: Menyesuaikan posisi panah jika terlihat aneh setelah dikecilkan */
+.swiper-button-prev {
+  left: 10px; /* Sesuaikan jarak dari kiri */
+}
+
+.swiper-button-next {
+  right: 10px; /* Sesuaikan jarak dari kanan */
+}
+
+/* Opsional: Kustomisasi titik pagination (jika Anda juga ingin mengubahnya) */
+.swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.5) !important; /* Transparan putih */
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: black !important; /* Putih solid untuk yang aktif */
+}
