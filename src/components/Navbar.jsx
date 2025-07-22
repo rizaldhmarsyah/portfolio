@@ -16,7 +16,13 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6">
       <div className="flex shrink-0 items-center">
-        <a href="/" aria-label="Home">
+        <a
+          href="/RIZAL_NUR_DHMARSYAH_CV_EN.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+          aria-label="Home"
+        >
           <img src={logo} className="mx-2" width={50} height={33} alt="Logo" />
         </a>
       </div>
@@ -49,7 +55,7 @@ const Navbar = () => {
           target="_blank"
           aria-label="Mail"
           rel="noopener noreferrer"
-          href="/resume.pdf"
+          href="/RIZAL_NUR_DHMARSYAH_CV_EN.pdf"
           download
         >
           <LuFileUser />

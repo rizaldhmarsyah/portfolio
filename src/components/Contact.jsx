@@ -33,9 +33,21 @@ const Contact = () => {
             {CONTACT.phoneNo}
           </motion.p>
         </a>
-        <p id="email">{CONTACT.email}</p>
+        <motion.p
+          id="email"
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 1 }}
+        >
+          {CONTACT.email}
+        </motion.p>
       </div>
-      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+      <motion.div
+        className="m-8 flex items-center justify-center gap-4 text-2xl"
+        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: 100 }}
+        transition={{ duration: 1 }}
+      >
         <a
           href="https://www.linkedin.com/in/rizal-nur-dhmarsyah/"
           target="_blank"
@@ -64,12 +76,12 @@ const Contact = () => {
           target="_blank"
           aria-label="Mail"
           rel="noopener noreferrer"
-          href="/resume.pdf"
+          href="/RIZAL_NUR_DHMARSYAH_CV_EN.pdf"
           download
         >
           <LuFileUser />
         </a>
-      </div>
+      </motion.div>
     </div>
   );
 };

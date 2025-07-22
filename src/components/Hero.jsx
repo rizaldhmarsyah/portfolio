@@ -65,7 +65,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
               variants={childVariants}
-              href="/resume.pdf"
+              href="/RIZAL_NUR_DHMARSYAH_CV_EN.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
@@ -73,7 +73,13 @@ const Hero = () => {
             >
               Download Resume
               <span>
-                <a href="/resume.pdf" download className="text-xl">
+                <a
+                  href="/RIZAL_NUR_DHMARSYAH_CV_EN.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download
+                  className="text-xl"
+                >
                   <LiaDownloadSolid />
                 </a>
               </span>
