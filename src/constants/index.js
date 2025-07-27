@@ -11,9 +11,9 @@ import crs_1 from "../assets/projects/crs-1.png";
 import crs_2 from "../assets/projects/crs-2.png";
 import crs_3 from "../assets/projects/crs-3.png";
 import crs_4 from "../assets/projects/crs-4.png";
-import aure_1 from "../assets/projects/aure-1.png";
-import aure_2 from "../assets/projects/aure-2.png";
-import aure_3 from "../assets/projects/aure-3.png";
+import ta_1 from "../assets/projects/ta-1.png";
+import ta_2 from "../assets/projects/ta-2.png";
+import ta_3 from "../assets/projects/ta-3.png";
 
 export const HERO_CONTENT = `I am passionate about web development and have professional experience building a company website, currently pursuing Information Systems. Highly proficient in JavaScript, React.js, and Next.js, I excel at creating responsive, scalable, high-performance web interfaces. My expertise includes integrating RESTful APIs and utilizing modern tools such as Firebase, MongoDB, Redux Toolkit, and Framer Motion. This real-world project honed my design-to-code translation and strengthened my UI/UX understanding, demonstrating my proactive approach to new technologies and commitment to clean, efficient code.`;
 
@@ -64,6 +64,20 @@ export const PROJECTS = [
     link: "https://sahabatmerantau.id/",
   },
   {
+    title: "Task Management System with REST API",
+    images: [ta_1, ta_2, ta_3],
+    description:
+      "Task Management System is designed to efficiently organize and track tasks. Powered by a robust RESTful API and a MongoDB database, the application enables seamless CRUD (Create, Read, Update, Delete) operations for tasks, ensuring responsive frontend-backend communication and an intuitive user experience.",
+    technologies: [
+      "NextJS",
+      "Tailwind CSS",
+      "MongoDB",
+      "REST API",
+      "React Toastify",
+    ],
+    link: "https://github.com/rizaldhmarsyah/Task-Management-System-with-REST-API",
+  },
+  {
     title: "Outdoor Gear Brand Platform",
     images: [wu_1, wu_2, wu_3, wu_4, wu_5],
     description:
@@ -75,15 +89,7 @@ export const PROJECTS = [
       "Redux Toolkit",
       "SwiperJS",
     ],
-    link: "https://rizaldhmarsyah.github.io/whatever-outdoor/",
-  },
-  {
-    title: "Simple Coffee Cafe Landing Page",
-    images: [aure_1, aure_2, aure_3],
-    description:
-      "A simple landing page for a coffee shop, showcasing its ambiance, menu highlights, and location.",
-    technologies: ["HTML", "CSS", "Bootstrap"],
-    link: "https://rizaldhmarsyah.github.io/aurecoffee/",
+    link: "https://whateveroutdoor-ecommerce-website.vercel.app/",
   },
   {
     title: "Course Website",

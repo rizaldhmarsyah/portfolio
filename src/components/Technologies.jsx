@@ -1,8 +1,14 @@
 import { BiLogoPostgresql } from "react-icons/bi";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
+import { DiJavascript, DiRedis } from "react-icons/di";
+import { FaNode, FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiFirebase, SiMongodb, SiRedux, SiTailwindcss } from "react-icons/si";
+import {
+  SiFirebase,
+  SiJavascript,
+  SiMongodb,
+  SiRedux,
+  SiTailwindcss,
+} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
 import { motion } from "framer-motion";
@@ -55,6 +61,14 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
+          variants={iconVariants(3)}
+          className="p-4"
+        >
+          <FaNode className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
           variants={iconVariants(5)}
           className="p-4"
         >
@@ -74,7 +88,7 @@ const Technologies = () => {
           variants={iconVariants(6)}
           className="p-4"
         >
-          <FaNodeJs className="text-7xl text-green-500" />
+          <SiJavascript className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
           initial="initial"
@@ -87,7 +101,7 @@ const Technologies = () => {
         <motion.div
           initial="initial"
           animate="animate"
-          variants={iconVariants(10)}
+          variants={iconVariants(2)}
           className="p-4"
         >
           <SiRedux className="text-7xl text-[#764ABC]" />

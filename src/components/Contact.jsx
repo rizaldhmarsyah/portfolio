@@ -76,7 +76,7 @@ const Contact = () => {
           target="_blank"
           aria-label="Mail"
           rel="noopener noreferrer"
-          href="/RIZAL_NUR_DHMARSYAH_CV_EN.pdf"
+          href="https://drive.google.com/file/d/1qy7euN5Yrxuifjm0BGURuYBuCnxRDx5s/view?usp=sharing"
           download
         >
           <LuFileUser />
