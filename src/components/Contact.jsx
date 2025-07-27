@@ -53,6 +53,7 @@ const Contact = () => {
           target="_blank"
           aria-label="Linkedin"
           rel="noopener noreferrer"
+          className="hover:text-[#0A66C2] transition-all duration-300"
         >
           <FaLinkedin />
         </a>
@@ -61,6 +62,7 @@ const Contact = () => {
           target="_blank"
           aria-label="GitHub"
           rel="noopener noreferrer"
+          className="hover:text-purple-500 transition-all duration-300"
         >
           <FaGithub />
         </a>
@@ -69,6 +71,7 @@ const Contact = () => {
           target="_blank"
           aria-label="Whatsapp"
           rel="noopener noreferrer"
+          className="hover:text-[#25D366] transition-all duration-300"
         >
           <FaWhatsapp />
         </a>
@@ -78,6 +81,7 @@ const Contact = () => {
           rel="noopener noreferrer"
           href="https://drive.google.com/file/d/1qy7euN5Yrxuifjm0BGURuYBuCnxRDx5s/view?usp=sharing"
           download
+          className="hover:text-white transition-all duration-300"
         >
           <LuFileUser />
         </a>

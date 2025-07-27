@@ -69,7 +69,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
               download
-              className="bg-white rounded-md p-3 text-md flex items-center tracking-tight gap-1 text-stone-800 mb-10"
+              className="bg-white rounded-md p-3 text-xl flex items-center tracking-tighter gap-1 text-stone-800 mb-10"
             >
               Download Resume
               <span>

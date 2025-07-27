@@ -1,15 +1,6 @@
-import {
-  FaEnvelope,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import logo from "../assets/logo.png";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { MdEmail } from "react-icons/md";
-import { GrResume } from "react-icons/gr";
-import { RxResume } from "react-icons/rx";
+
 import { LuFileUser } from "react-icons/lu";
 
 const Navbar = () => {
@@ -32,6 +23,7 @@ const Navbar = () => {
           target="_blank"
           aria-label="Linkedin"
           rel="noopener noreferrer"
+          className="hover:text-[#0A66C2] transition-all duration-300"
         >
           <FaLinkedin />
         </a>
@@ -40,6 +32,7 @@ const Navbar = () => {
           target="_blank"
           aria-label="GitHub"
           rel="noopener noreferrer"
+          className="hover:text-purple-500 transition-all duration-300"
         >
           <FaGithub />
         </a>
@@ -48,6 +41,7 @@ const Navbar = () => {
           target="_blank"
           aria-label="Whatsapp"
           rel="noopener noreferrer"
+          className="hover:text-[#25D366] transition-all duration-300"
         >
           <FaWhatsapp />
         </a>
@@ -57,6 +51,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           href="https://drive.google.com/file/d/1qy7euN5Yrxuifjm0BGURuYBuCnxRDx5s/view?usp=sharing"
           download
+          className="hover:text-white transition-all duration-300"
         >
           <LuFileUser />
         </a>
