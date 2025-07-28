@@ -42,7 +42,7 @@ export const EDUCATION = [
     degree: "Bachelor’s Degree in Information Systems – GPA 3.89",
   },
   {
-    year: "2019 - 2021",
+    year: "2018 - 2021",
     university: "SMKS Hang Tuah 2",
     degree: "Computer and Network Engineering – GPA 88",
   },

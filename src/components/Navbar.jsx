@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between py-6">
       <div className="flex shrink-0 items-center">
         <a
-          href="https://drive.google.com/file/d/1qy7euN5Yrxuifjm0BGURuYBuCnxRDx5s/view?usp=sharing"
+          href="https://drive.google.com/file/d/1FOYnKA1MIBACREw6TPNewM-oloAFabIE/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           download
@@ -49,7 +49,7 @@ const Navbar = () => {
           target="_blank"
           aria-label="Mail"
           rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/1qy7euN5Yrxuifjm0BGURuYBuCnxRDx5s/view?usp=sharing"
+          href="https://drive.google.com/file/d/1FOYnKA1MIBACREw6TPNewM-oloAFabIE/view?usp=drive_link"
           download
           className="hover:text-white transition-all duration-300"
         >
